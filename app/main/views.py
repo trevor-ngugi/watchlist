@@ -8,7 +8,7 @@ from ..models import Review
 
 
 
-Review = reviews.Review
+#Review = reviews.Review
 # Views
 # @app.route('/')
 # def index():
