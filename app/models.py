@@ -45,7 +45,7 @@ class Review(db.Model):
     def get_reviews(cls,id):
         
         reviews = Review.query.filter_by(movie_id=id).all()
-        return reviews
+        return reviews#error here
 
 class User(UserMixin,db.Model):
     __tablename__ = 'users'
